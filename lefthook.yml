@@ -11,7 +11,7 @@ pre-commit:
       fail_text: "Formatting failed"
     typecheck:
       glob: "*.{ts,tsx}"
-      run: pnpx tsc --noEmit
+      run: npx tsc --noEmit
       fail_text: "TypeScript compilation failed"
 
 commit-msg:
